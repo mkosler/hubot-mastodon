@@ -120,4 +120,3 @@ class Mastodon extends Adapter
 
 exports.use = (robot) ->
     new Mastodon robot
-  "main": 
