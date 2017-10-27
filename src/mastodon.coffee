@@ -94,7 +94,7 @@ class Mastodon extends Adapter
         # clean up whitespace
         text = text.replace /[ ][ ]+/g, ' '
         text = text.trim()
-        text = "#{display_name}: #{text}"
+        text = "#{@robot.name}: #{text}"
         @robot.logger.debug text
         
         id = toot.data.status.id
