@@ -1,0 +1,30 @@
+{
+  "name": "hubot-mastodon",
+  "version": "0.0.1",
+  "description": "A Hubot adapter for the Mastodon social network",
+  "main": "./src/mastodon",
+  "keywords": [
+    "hubot",
+    "mastodon",
+    "adapter"
+  ],
+  "author": "Michael Kosler (michaelkosler@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mastodon-api": "^1.3.0",
+    "parent-require": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "striptags": "^3.1.0"
+  },
+  "peerDependencies": {
+    "hubot": "^2.19.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkosler/hubot-mastodon.git"
+  }
+}
